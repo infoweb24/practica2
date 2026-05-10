@@ -1,0 +1,23 @@
+
+/*resetear estilos navegadores*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root{
+  font-family: "Manjari", sans-serif;
+  height: 100%;
+}
+
+
+body{
+  color:#333; 
+  /*renderizado suave*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+

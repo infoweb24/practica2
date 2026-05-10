@@ -1,0 +1,76 @@
+
+
+/*tamaño fuente menu */
+
+.navbar-nav{
+  font-size: 20px;
+}
+
+
+
+/*personalizar menu hamburguesa */
+
+/*boton*/
+.navbar-toggler {
+    background-color: #71d1ea !important;        
+    border: 3px solid #fff !important;
+}
+
+/*color de 3 lineas SVG*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* activación */
+.navbar-toggler:focus {
+    background-color: #71d1ea !important;
+    border: 3px solid #000;    
+}
+
+
+/* media query centrado del boton H*/
+@media (max-width: 576px) {
+  .navbar-toggler {
+    margin: 0 auto; 
+  }
+}
+
+
+
+
+/*salto directo al titulo de cada seccion web*/
+section {
+  /* altura del navbar */
+  scroll-margin-top: 80px; 
+}
+
+
+/*scrolltop*/
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  background-color: #212529;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-top:hover {
+  background-color: #0b3169;
+}
+
+
