@@ -4,16 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://infoweb24.github.io/practica2",
-    
-  
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",   
-    "deploy": "gh-pages -d dist"    
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
-  
+
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1",
@@ -21,7 +20,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
-  
+
   "devDependencies": {
     "@eslint/js": "^9.39.1",
     "@types/react": "^19.2.5",
