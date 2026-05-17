@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   //aqui debe ir la carpeta que se creo en el servidor.  
-  base: '/prueba1/'
+  base: '/practica2/'
 })
 
 
