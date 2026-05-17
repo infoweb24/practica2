@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
+    "preview": "vite preview",   
     "deploy": "gh-pages -d dist",
     "homepage": "https://infoweb24.github.io/practica2"
   },
